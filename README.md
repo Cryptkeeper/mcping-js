@@ -15,7 +15,7 @@ server.ping(timeout, protocolVersion, (err, res) => {
 
 `protocolVersion` is ever changing as Minecraft updates. See [protocol version numbers](https://wiki.vg/Protocol_version_numbers) for a complete and updated listing.
 
-If successful, `res` will be a parsed copy of the [Response payload](https://wiki.vg/Server_List_Ping#Response).
+If successful, `res` will be a parsed copy of the [Response](https://wiki.vg/Server_List_Ping#Response) packet.
 
 ## Compatibility
 1. This does not support Minecraft's [legacy ping protocol](https://wiki.vg/Server_List_Ping#1.6) for pre-Minecraft version 1.6 servers.
